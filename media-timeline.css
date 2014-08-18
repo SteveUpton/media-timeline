@@ -1,0 +1,91 @@
+html, body {
+  font: 10pt arial;
+}
+
+#mediatimeline {
+}
+
+#new {
+  position: absolute;
+  left: 25px;
+  top: 8px;
+
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+div.timeline-frame {
+  border-color: #5D99C3;
+
+  border-radius: 5px;
+  -moz-border-radius: 5px; /* for Firefox 3.6 and older */
+}
+
+div.timeline-axis {
+  border-color: #5D99C3;
+  background-color: #5D99C3;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5D99C3', endColorstr='#3A6DA0'); /* for IE */
+  background: -webkit-gradient(linear, left top, left bottom, from(#5D99C3), to(#3A6DA0)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #5D99C3,  #3A6DA0); /* for firefox 3.6+ */
+}
+
+div.timeline-axis-grid {
+}
+
+div.timeline-groups-axis {
+  border-color: #5D99C3;
+}
+
+div.timeline-axis-text {
+  color: white;
+}
+
+div.timeline-groups-text {
+    color: #4D4D4D;
+}
+
+div.timeline-event {
+  color: white;
+  border-radius: 5px;
+}
+
+div.timeline-event-content {
+  padding: 5px;
+}
+
+div.film {
+  background-color: #BEE2E7;
+  border-color: #BEE2E7;
+  color: black;
+}
+
+div.tv {
+  background-color: #00A9C7;
+  border-color: #00A9C7;
+  color: black;
+}
+
+div.book {
+  background-color: #FE7312;
+  border-color: #FE7312;
+  color: black;
+}
+
+div.comic {
+  background-color: #A8D015;
+  border-color: #A8D015;
+}
+
+div.lecture {
+  background-color: #A36FC7;
+  border-color: #A36FC7;
+}
+
+div.game {
+  background-color: transparent;
+  border-color: #000000;
+  color: black;
+}
