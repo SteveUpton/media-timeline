@@ -84,8 +84,24 @@ div.lecture {
   border-color: #A36FC7;
 }
 
-div.game {
+div.vita, div.pc, div.ps3 {
   background-color: transparent;
   border-color: #000000;
   color: black;
+  font-weight: bold;
+
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+div.vita {
+  background-image: url('./img/vita.png');
+}
+
+div.ps3 {
+  background-image: url('./img/ps3.png');
+}
+
+div.pc {
+  background-image: url('./img/pc.png');
 }
