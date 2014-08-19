@@ -3,7 +3,7 @@
   <title>Media timeline</title>
 
   <meta content="True" name="HandheldFriendly" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
   <script type="text/javascript" src="http://www.google.com/jsapi"></script>
   <script type="text/javascript" src="./lib/chap/js/src/timeline/timeline.js"></script>
@@ -45,7 +45,10 @@
           height: "100%",
           editable: false,
           layout: "box",
-          axisOnTop: true
+          axisOnTop: true,
+          animate: false,
+          cluster: true,
+          end: Date.now()
         };
 
         // Instantiate the timeline object
