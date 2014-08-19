@@ -53,25 +53,24 @@ div.timeline-event {
 }
 
 div.timeline-event-content {
-  padding: 5px;
+  padding: 4px;
+  font-size: 110%;
+  color: black;
 }
 
 div.film {
   background-color: #BEE2E7;
   border-color: #BEE2E7;
-  color: black;
 }
 
 div.tv {
   background-color: #00A9C7;
   border-color: #00A9C7;
-  color: black;
 }
 
 div.book {
   background-color: #FE7312;
   border-color: #FE7312;
-  color: black;
 }
 
 div.comic {
@@ -84,14 +83,14 @@ div.lecture {
   border-color: #A36FC7;
 }
 
-div.vita, div.pc, div.ps3 {
+div.game, div.vita, div.pc, div.ps3 {
   background-color: transparent;
   border-color: #000000;
-  color: black;
   font-weight: bold;
 
   background-repeat: no-repeat;
   background-size: auto 100%;
+  background-position: 2px 0px;
 }
 
 div.vita {
